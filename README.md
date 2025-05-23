@@ -15,7 +15,8 @@ Welcome to the repository for `FALAFL` (FAir muLti-sAmple Feature sELection)[^2]
        * [Input](#input): content and format of input files to `FALAFL`
        * [Intermediate output](#inter_output): content and format of intermediate output of `FALAFL`
        * [Final output](#final_output): content and format of final output files to `FALAFL`
-     * [Example](#example): a guide to perform feature selection on the colorectal cancer patient cohort [^1]
+     * [Example](#example): a guide to perform feature selection using `FALAFL`
+  3. [Preprocessed colorectal cancer input files](#crc)files): links to preprocessed colorectal cancer input files
   4. [Contact](#contact)
 
 
@@ -109,6 +110,13 @@ python src/falafl.py \
 ```
 
 The output file `output.npz` contains the indices of the sites selected by `FALAFL` and can be used for downstream analysis per the user's research purpose.
+
+<a name="crc_files"></a>
+# Preprocessed colorectal cancer input files
+The preprocessed input files of colorectal cancer patient data can be accessed by clicking the links below: 
+* CRC - [all-patient cohort](https://umd.box.com/s/dx6mndx1qkgahgwsq0p2p029pfv0u581)
+* CRC - [left CRC patient subchort](https://umd.box.com/s/1hfi5rtufm6ln99h85wf0p280273urij)
+
 
 <a name="contact"></a>
 # Contact
